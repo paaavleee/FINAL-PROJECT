@@ -11,7 +11,7 @@ ul {
 }
 .conteiner {
   max-width: 1680px;
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 
@@ -980,7 +980,7 @@ ul {
   }
   .navbar-img {
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .roca-img {
     width: 80%;
