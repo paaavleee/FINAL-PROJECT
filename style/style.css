@@ -229,7 +229,7 @@ ul {
 }
 
 .hover-p {
-  width: 285px;
+  width: 100%;
   height: 360px;
   background-color: #15263e;
   position: absolute;
@@ -238,7 +238,7 @@ ul {
   color: #f0f0f0;
 }
 .sect-img-flex {
-  width: 285px;
+  width: 100%;
   height: 360px;
   object-fit: cover;
   background-color: #fafafa;
@@ -566,10 +566,6 @@ ul {
   width: 80%;
 }
 
-/* .ragacaaaaa {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
 .Latest-articles-second-all {
   display: flex;
 }
@@ -871,7 +867,7 @@ ul {
   }
 
   .slide-img-info {
-    width: 80%;
+    width: 100%;
     height: 400px;
     margin: auto;
   }
