@@ -135,7 +135,7 @@ function showReferenceImage(itemID) {
 
   navbarInfo.forEach((el) => {
     let x = el.getAttribute("id");
-    console.log(x);
+    // console.log(x);
     if (activeImage != x) {
       el.classList.add("opaci");
     } else {
