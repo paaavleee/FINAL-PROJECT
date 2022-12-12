@@ -841,7 +841,7 @@ ul {
 @media (max-width: 1024px) {
   .conteiner {
     max-width: 1024px;
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -901,6 +901,9 @@ ul {
     grid-template-columns: 1fr;
     margin-bottom: 15%;
   }
+  .sect-main-section {
+    width: 100%;
+  }
   .sect-all-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -909,7 +912,7 @@ ul {
     width: 100%;
   }
   .sect-img-flex {
-    width: 205px;
+    width: 100%;
     height: 260px;
   }
   .hover-p {
@@ -948,6 +951,12 @@ ul {
   }
   .Latest-articles-first-centry-img {
     display: none;
+  }
+  .Latest-articles-first-right-img-info {
+    object-fit: contain;
+  }
+  .Latest-articles-second-right-img-info {
+    object-fit: contain;
   }
   .main-navbar {
     display: flex;
